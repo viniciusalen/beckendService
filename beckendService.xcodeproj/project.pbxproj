@@ -13,6 +13,8 @@
 		124F6E992566BB2600180C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124F6E972566BB2600180C5A /* Main.storyboard */; };
 		124F6E9B2566BB2800180C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124F6E9A2566BB2800180C5A /* Assets.xcassets */; };
 		124F6E9E2566BB2800180C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124F6E9C2566BB2800180C5A /* LaunchScreen.storyboard */; };
+		124F6EA72566F71400180C5A /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124F6EA62566F71400180C5A /* CoinManager.swift */; };
+		129C35D72567F97B001AA259 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129C35D62567F97B001AA259 /* CoinData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		124F6E9A2566BB2800180C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		124F6E9D2566BB2800180C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		124F6E9F2566BB2800180C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124F6EA62566F71400180C5A /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		129C35D62567F97B001AA259 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		124F6E902566BB2600180C5A /* beckendService */ = {
 			isa = PBXGroup;
 			children = (
+				124F6EAA2566F72800180C5A /* model */,
 				124F6E912566BB2600180C5A /* AppDelegate.swift */,
 				124F6E932566BB2600180C5A /* SceneDelegate.swift */,
 				124F6E952566BB2600180C5A /* ViewController.swift */,
 				124F6E972566BB2600180C5A /* Main.storyboard */,
-				124F6E9A2566BB2800180C5A /* Assets.xcassets */,
 				124F6E9C2566BB2800180C5A /* LaunchScreen.storyboard */,
+				124F6E9A2566BB2800180C5A /* Assets.xcassets */,
 				124F6E9F2566BB2800180C5A /* Info.plist */,
 			);
 			path = beckendService;
+			sourceTree = "<group>";
+		};
+		124F6EAA2566F72800180C5A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				124F6EA62566F71400180C5A /* CoinManager.swift */,
+				129C35D62567F97B001AA259 /* CoinData.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			files = (
 				124F6E962566BB2600180C5A /* ViewController.swift in Sources */,
 				124F6E922566BB2600180C5A /* AppDelegate.swift in Sources */,
+				129C35D72567F97B001AA259 /* CoinData.swift in Sources */,
 				124F6E942566BB2600180C5A /* SceneDelegate.swift in Sources */,
+				124F6EA72566F71400180C5A /* CoinManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
